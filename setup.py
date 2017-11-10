@@ -14,6 +14,7 @@ setup(name='django-adaptors',
       license = "BSD",
       keywords = "CSV XML Django adaptor",
       packages=['adaptor'],
+      install_requires=['lxml'],
       classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
